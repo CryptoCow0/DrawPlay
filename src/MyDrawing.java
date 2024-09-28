@@ -31,7 +31,7 @@ public class MyDrawing extends JPanel {
 		frame.setSize(400, 400);
 		
 		//set new background color
-		frame.setBackground(Color.black);
+		frame.setBackground(Color.blue);
 		
 		// Frame will not display until you set visible true
 		frame.setVisible(true);
