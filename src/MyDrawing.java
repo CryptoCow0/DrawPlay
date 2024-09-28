@@ -1,3 +1,4 @@
+import java.awt.Color;
 import java.awt.Graphics;
 
 import javax.swing.JFrame;
@@ -28,6 +29,9 @@ public class MyDrawing extends JPanel {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// Set the size (otherwise only title bar displays)
 		frame.setSize(400, 400);
+		
+		//set new background color
+		frame.setBackground(Color.black);
 		
 		// Frame will not display until you set visible true
 		frame.setVisible(true);
