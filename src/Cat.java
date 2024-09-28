@@ -41,9 +41,9 @@ public class Cat {
 		x = catX + MOUTH_X;
 		y = catY + MOUTH_Y;
 		g2.fillOval(x, y, MOUTH_WIDTH, MOUTH_HEIGHT);
-		g2.setColor(Color.magenta);
+		g2.setColor(Color.black);
 		// Meow text appears below cat head, +10 places below 
 		// so it doesn't overlap the drawing
-		g2.drawString("Domain expansion - Infinite Void", catX, catY+HEAD_DIMENSION+10); //changed what is said/displayed	
+		g2.drawString("I hate Mondays", catX, catY+HEAD_DIMENSION+10); //changed what is said/displayed	
 	}
 }
